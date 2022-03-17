@@ -1,0 +1,68 @@
+body {
+    background-image: url(images/bg.png);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: lightgrey;
+}
+
+.header {
+    padding: 20px;
+    margin: -10px -10px 0 -10px;
+}
+
+.header a {
+    color: rosybrown;
+    padding: 5px;
+}
+
+.banner {
+    width: 800px;
+    margin: 0px 400px;
+    padding: 10px;
+}
+
+.header a:hover{
+    background-color: rosybrown;
+    color: white;
+}
+
+.content {
+    background-color: whitesmoke;
+    width: 800px;
+    margin: auto;
+}
+
+.content .h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.content .image {
+    padding: 10px;
+}
+.content .p{
+    text-align: justify; width: 98%;
+}
+
+.content .ability {
+    padding-left: 10px;
+}
+
+.footer {
+    background-color: lightgrey;
+    height: 50px;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.content .sorry {
+    text-align: center;
+    font-size: 40px;
+    font: bold;
+}
